@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 :root{
-    --primary-color : #2563eb;
+    --primary-color : #202124;
     --text-color : #22;
     --background-color : #ffffff;
+    --text-color : #d6b318;
 }
 html{
     scroll-behavior: smooth;
@@ -19,5 +20,32 @@ body{
 }
 a{
     text-decoration: none;
+}    
+
+/* --------------------------- */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
 }
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+
 
